@@ -1,0 +1,47 @@
+touch abc.txt
+
+git init  ：创建版本库
+
+git add **：添加到暂存区
+
+git commit -m "add一个文件"：提交并添加“提交信息”
+
+git status：查看状态
+
+
+git log **：查看历史记录
+git log --pretty=oneline **
+git reflog：历史提交
+
+
+git checkout -- **  ：还原
+git reset --hard head
+git reset --hard 版本号
+
+
+git rm：删除
+rit commit
+
+
+
+钥匙
+http
+https://github.com/JLE00001/JLE01.git
+SSH
+git@github.com:JLE00001/JLE01.git
+
+
+
+create a new repository 
+echo "# JLE01" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:JLE00001/JLE01.git
+git push -u origin main
+
+existing repository
+git remote add origin https://github.com/JLE00001/JLE01.git
+git branch -M main
+git push -u origin main
